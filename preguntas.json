@@ -1,0 +1,58 @@
+{
+  "categorias": {
+    "presupuesto": "📊 Presupuesto",
+    "ahorro": "💰 Ahorro",
+    "deudas": "💳 Deudas",
+    "inversion": "📈 Inversión"
+  },
+  "preguntas": [
+    {
+      "categoria": "presupuesto",
+      "pregunta": "¿Cómo hago un presupuesto?",
+      "palabras_clave": ["presupuesto", "organizar", "plata", "dinero", "mes"],
+      "respuesta": "1. Anota todos tus ingresos del mes.\n2. Lista tus gastos fijos (arriendo, servicios, transporte).\n3. Lista tus gastos variables (comida, salidas).\n4. Resta: ingresos − gastos.\n5. Asigna lo que sobra a ahorro o deudas.\n\nTip: registra tus gastos aquí con /gasto y revisa /resumen."
+    },
+    {
+      "categoria": "presupuesto",
+      "pregunta": "¿Qué es la regla 50/30/20?",
+      "palabras_clave": ["50/30/20", "regla", "porcentaje", "dividir"],
+      "respuesta": "Es una guía para repartir tus ingresos:\n• 50% necesidades (vivienda, comida, servicios)\n• 30% gustos (salidas, ropa, entretenimiento)\n• 20% ahorro y pago de deudas\n\nAjusta los porcentajes a tu realidad."
+    },
+    {
+      "categoria": "ahorro",
+      "pregunta": "¿Qué es un fondo de emergencia?",
+      "palabras_clave": ["emergencia", "fondo", "imprevisto"],
+      "respuesta": "Es dinero guardado solo para imprevistos (pérdida de empleo, salud, reparaciones). Lo recomendado es tener entre 3 y 6 meses de tus gastos básicos, en un lugar seguro y de fácil acceso."
+    },
+    {
+      "categoria": "ahorro",
+      "pregunta": "¿Cómo empiezo a ahorrar?",
+      "palabras_clave": ["ahorrar", "ahorro", "empezar", "guardar"],
+      "respuesta": "• Págate primero: separa el ahorro apenas recibas tu ingreso.\n• Empieza con poco (5–10%) y sube con el tiempo.\n• Automatiza una transferencia a una cuenta aparte.\n• Ponle una meta y una fecha a tu ahorro."
+    },
+    {
+      "categoria": "deudas",
+      "pregunta": "¿Cómo salgo de deudas?",
+      "palabras_clave": ["deuda", "deudas", "pagar", "salir", "debo"],
+      "respuesta": "Dos métodos comunes:\n• Bola de nieve: paga primero la deuda más pequeña para ganar motivación.\n• Avalancha: paga primero la de mayor interés para ahorrar más dinero.\n\nEn ambos casos paga el mínimo de las demás y no adquieras deudas nuevas."
+    },
+    {
+      "categoria": "deudas",
+      "pregunta": "¿Cómo uso bien la tarjeta de crédito?",
+      "palabras_clave": ["tarjeta", "crédito", "credito", "cuotas"],
+      "respuesta": "• Paga el total del mes, no solo el mínimo.\n• Compra a una sola cuota cuando puedas.\n• No uses más del 30% de tu cupo.\n• Nunca saques avances en efectivo: tienen intereses altos."
+    },
+    {
+      "categoria": "inversion",
+      "pregunta": "¿Qué es el interés compuesto?",
+      "palabras_clave": ["interés", "interes", "compuesto", "rendimiento"],
+      "respuesta": "Es ganar intereses sobre los intereses que ya ganaste. Con el tiempo hace que tu dinero crezca cada vez más rápido. Por eso empezar temprano importa más que la cantidad inicial."
+    },
+    {
+      "categoria": "inversion",
+      "pregunta": "¿Cuándo debería empezar a invertir?",
+      "palabras_clave": ["invertir", "inversión", "inversion", "cuándo", "cuando"],
+      "respuesta": "Generalmente después de tener tu fondo de emergencia y sin deudas de interés alto. Infórmate bien, diversifica y consulta con un asesor financiero autorizado antes de tomar decisiones."
+    }
+  ]
+}
