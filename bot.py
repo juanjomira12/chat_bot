@@ -44,7 +44,9 @@ import reportes
 BASE = Path(__file__).resolve().parent
 load_dotenv(BASE / ".env")
 TOKEN = os.getenv("TELEGRAM_TOKEN")
-DB_PATH = BASE / "finanzas.db"
+# En un servidor, apunta DB_PATH a un disco persistente (ej. /data/finanzas.db) para no perder los datos.
+DB_PATH = Path(os.getenv("DB_PATH") or BASE / "finanzas.db")
+DB_PATH.parent.mkdir(parents=True, exist_ok=True)
 LOGO = BASE / "logo.png"
 
 logging.basicConfig(format="%(asctime)s %(levelname)s %(message)s", level=logging.INFO)
